@@ -1,7 +1,6 @@
 .idea/
 .DS_Store
 node_modules/
-public/
 coverage/
 npm-debug.log
 
