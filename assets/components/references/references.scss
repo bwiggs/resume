@@ -1,0 +1,5 @@
+.mb-5
+    .border-b.border-black.text-2xl.mb-5 References
+    each ref in resume.references
+        .text-2xl!=helper.mdToHtml(helper.beautifyArray(', ', [edu.studyType, edu.area]))
+        a(href=edu.url)=edu.institution

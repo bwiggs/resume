@@ -1,0 +1,9 @@
+.mb-5
+    .border-b.border-black.text-2xl.my-5 Interests
+    .divide-y.divide-gray.text-sm.text-xs
+        each interest in resume.interests
+            .py-2
+                .inline-block(class="w-1/4")
+                    .font-bold.uppercase=interest.name
+                .inline-block
+                    !=helper.beautifyArray(' · ', interest.keywords)

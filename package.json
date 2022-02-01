@@ -1,0 +1,47 @@
+{
+  "name": "jsonresume-theme-tailwind",
+  "main": "index.js",
+  "files": [
+    "/assets",
+    "index.js"
+  ],
+  "version": "0.1.0",
+  "description": "Tailwind theme for JSON Resume",
+  "author": "Brian Wigginton",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bwiggs/jsonresume-theme-tailwind"
+  },
+  "scripts": {
+    "create-html": "resume export public/index.html --format html --theme .",
+    "create-pdf": "resume export public/index.pdf --format pdf --theme .",
+    "create-docs": "resume export docs/resume_extended.pdf --resume public/resume_extended.json --format pdf --theme . && resume export docs/resume_simple.pdf --resume public/resume_simple.json --format pdf --theme .",
+    "validate": "resume test",
+    "test": "jest",
+    "test:watch": "jest --watchAll",
+    "gulp": "gulp",
+    "gulp:css": "gulp css",
+    "deploy": "scp public/index.html bwiggs.com:resume"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "iso-3166-1": "^2.0.1",
+    "markdown-it": "^12.0.4",
+    "moment": "^2.29.1",
+    "pug": "^3.0.0"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.14",
+    "eslint": "^7.18.0",
+    "eslint-config-standard": "^16.0.2",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "gulp": "^4.0.2",
+    "gulp-pug": "^4.0.1",
+    "gulp-sass": "^5.1.0",
+    "html-validate": "^4.3.0",
+    "jest": "^26.6.3",
+    "sass": "^1.49.0"
+  }
+}

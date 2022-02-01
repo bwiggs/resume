@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+
+@import 'scss/common/variables';
+@import 'scss/common/mixins';
+@import 'scss/common/reset';
+@import 'scss/common/pdf';
+@import 'scss/common/global';
+@import 'scss/common/utils';
+@import 'scss/common/markdown';
+
+@import 'components/basics/basics';
+@import 'components/work/work';
+@import 'components/projects/projects';
+@import 'components/skills/skills';
+@import 'components/education/education';
+@import 'components/certificates/certificates';
+@import 'components/awards/awards';
+@import 'components/languages/languages';
+@import 'components/interests/interests';
+@import 'components/links/links';

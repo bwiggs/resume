@@ -1,0 +1,21 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="utf-8")
+        style
+            include styles.css
+            include tailwind.min.css
+        title=resume.basics.name + " - " + resume.basics.label
+    body.m-3
+        .container.mx-auto
+            include components/basics/basics
+            include components/work/work
+            include components/skills/skills
+            include components/education/education
+            include components/references/references
+            include components/interests/interests
+            //- include components/projects/projects
+            //- include components/certificates/certificates
+            //- include components/awards/awards
+            //- include components/languages/languages
+            //- include components/links/links

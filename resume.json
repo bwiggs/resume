@@ -1,0 +1,516 @@
+{
+    "basics": {
+        "name": "Brian Wigginton",
+        "label": "Software Engineer",
+        "image": "",
+        "email": "brianwigginton@gmail.com",
+        "phone": "(303) 517-8467",
+        "url": "https://bwiggs.com",
+        "summary": "Smart and empathetic Software Engineer with vast experience in different domains and technologies. From fast paced startups and advertising shops, to large scale insuretech. From large multiteam projects to individual projects. I love working on teams with excited and passionate people out to solve interesting problems.",
+        "location": {
+            "city": "Austin",
+            "region": "Texas",
+            "address": "4011 Galacia Dr",
+            "postalCode": "78759",
+            "countryCode": ""
+        },
+        "profiles": [
+            {
+                "network": "LinkedIn",
+                "username": "wiggintonbrian",
+                "url": "https://www.linkedin.com/in/wiggintonbrian/"
+            },
+            {
+                "network": "Github",
+                "username": "bwiggs",
+                "url": "https://github.com/bwiggs"
+            },
+            {
+                "network": "Keybase",
+                "username": "bwigginton",
+                "url": "https://keybase.io/bwigginton"
+            }
+        ],
+        "picture": "http://resume.bwiggs.com/photo.jpg",
+        "website": "http://bwiggs.com"
+    },
+    "work_bak": [
+        {
+            "name": "Galacio",
+            "position": "Founder",
+            "summary": "Founder of Galacio Application Development.",
+            "startDate": "2021-10-01",
+            "highlights": [
+                "Cocktail Genius - Created mobile application to recommend and track cocktail and flavor profiles.",
+                "Linux Stock Screener - Created Linx GTK application to track and visualize stock and crypto trends."
+            ],
+            "url": "https://bwiggs.com",
+            "location": "Austin, Texas",
+            "company": "Galacio",
+            "website": "http://bwiggs.com"
+        },
+        {
+            "name": "Bell Helicopter",
+            "location": "Fort Worth, TX",
+            "position": "PDM Development Intern",
+            "startDate": "2006-06-30",
+            "endDate": "2006-08-31",
+            "highlights": [],
+            "url": "https://www.linkedin.com/company/bell-flight/",
+            "company": "Bell Helicopter"
+        },
+        {
+            "name": "Fort Worth Technologies",
+            "location": "Fort Worth, TX",
+            "position": "Intern",
+            "startDate": "2005-06-30",
+            "endDate": "2005-08-31",
+            "highlights": [],
+            "company": "Fort Worth Technologies"
+        }
+    ],
+    "work": [
+        {
+            "name": "Applied Systems",
+            "summary": "Managed 10 direct reports, responsible for weekly 1-1s, annual reviews, hiring new talent. Collaborated closely with Product Owners, QA, Architecture and DevOps teams for delivery of new features.",
+            "position": "Development Manager, Data Products",
+            "startDate": "2019-07-31",
+            "endDate": "2021-09-18",
+            "highlights": [
+              "Enterprise Data Lake - Lead a new team towards building a customer-facing Data Lake leveraging GCP, GKE and BigQuery",
+              "Data Warehouse Migration - Managed the team working on converting a legacy SQLServer data warehouse system to Google BigQuery. **Speedup from minutes to seconds.**",
+              "Applied Analytics - Managed the product engineering team working on new features and integrations."
+            ],
+            "url": "https://www.linkedin.com/company/applied-systems/",
+            "location": "Austin, Texas",
+            "company": "Applied Systems",
+            "website": "https://www.appliedsystems.com"
+        },
+        {
+            "name": "Applied Systems",
+            "position": "Senior Software Engineer",
+            "summary": "",
+            "startDate": "2015-09-30",
+            "endDate": "2019-07-31",
+            "highlights": [
+                "Applied Analytics - Lead a team in rebuilding Applied Analytics using a new microservices architecture using Kubernetes, GKE, GoLang, GRPC, REST, API Gateway Pattern, JWTs, Datadog, Docker and ArgoCD deploying to GCP.",
+                "Project Mobius - Created a web frontend for Applied's flagship software, Epic. There were no APIs, so we had to reverse engineer a proprietary .NET API Protocol. Using GoLang and Angular 4.",
+                "AL3 RLE Processor - Developed custom AL3 RLE file parser using GoLang to scrape millions of commercial insurance policy records.",
+                "Kraken - Built a data ingestion platform using GoLang, Angular and Postgres. Centralized data from thousands of custom databases into a centralized data store for use by our product team."
+            ],
+            "url": "https://www.linkedin.com/company/applied-systems/",
+            "company": "Applied Systems",
+            "website": "https://www.appliedsystems.com"
+        },
+        {
+            "name": "General Assembly",
+            "position": "JavaScript Instructor",
+            "summary": "Instructor for a 10 week night-class of 8 junior JavaScript developers. Helped several students gain full-time engineering jobs once the class was finished!",
+            "startDate": "2016-06-30",
+            "endDate": "2016-08-31",
+            "url": "https://www.linkedin.com/school/generalassembly/",
+            "company": "General Assembly",
+            "website": "https://generalassemb.ly/"
+        },
+        {
+            "name": "EvoSure (Acquired by Applied Systems)",
+            "summary": "8th hire at Evosure, a startup in the Insuretech space. We were acquired by Applied Systems in 2015.",
+            "position": "Senior Software Engineer",
+            "startDate": "2014-11-30",
+            "endDate": "2015-09-30",
+            "highlights": [
+                "Full Stack Engineer - GoLang, Postgres, Ruby, Angular, CircleCI and AWS.",
+                "Industry Search API - Developed an API to help users find relevant industries from SIC, NAICS, SIC-UK classification systems. Leveraged GoLang, Postgres, AWS. Feature was well received and rolled out to other teams at Applied as well as the core Epic Software."
+            ],
+            "url": "https://www.linkedin.com/company/evosure/",
+            "location": "Austin, Texas",
+            "company": "Evosure",
+            "website": "http://evosure.com"
+        },
+        {
+            "name": "SportsLabs",
+            "position": "Senior Software Engineer",
+            "startDate": "2012-12-31",
+            "endDate": "2014-08-31",
+            "highlights": [
+                "Campus Insiders - Rewrote from PHP Silex to Ruby on Rails. Cloudfront CDN, SOLR for full-text search, HAProxy L7 routing to let us do phased deployments.",
+                "Team Lead for Custom CMS tool and visual redesign rollout of Campus Insiders",
+                "Culture Squad - Put together a team to work on culture impact at SL. We created brainstorming sessions and pancake morning for the team to relax and get to know one-another."
+            ],
+            "url": "https://www.linkedin.com/company/sports-lab-llc/",
+            "location": "Boulder, CO",
+            "company": "Sportslabs",
+            "website": "https://sportslabs.com"
+        },
+        {
+            "name": "Crispin Porter + Bogusky",
+            "position": "Technical Lead",
+            "summary": "Lead development teams to deliver applications using a wide range of technologies.",
+            "startDate": "2012-03-31",
+            "endDate": "2012-11-30",
+            "highlights": [
+                "Lead rollout of Agile to a team of 20+ developers to deliver software. Wrote stories, estimation, story breakdowns. Mentored junior engineers.",
+                "American Express, Applebees, MDC Partners"
+            ],
+            "url": "https://www.linkedin.com/company/crispinporterbogusky/",
+            "location": "Boulder, CO",
+            "company": "Crispin Porter + Bogusky"
+        },
+        {
+            "name": "Crispin Porter + Bogusky",
+            "position": "Senior Interactive Developer",
+            "location": "Boulder, CO",
+            "startDate": "2010-07-31",
+            "endDate": "2011-07-31",
+            "highlights": [
+                "Vail Resort's EpicMix: JavaScript, HTML/CSS, C#"
+            ],
+            "url": "https://www.linkedin.com/company/crispinporterbogusky/",
+            "company": "Crispin Porter + Bogusky"
+        },
+        {
+            "name": "Freelance",
+            "position": "Freelance Web Developer",
+            "location": "Fort Worth, TX",
+            "startDate": "2009-04-30",
+            "endDate": "2010-07-31",
+            "highlights": [
+                "MDC Partners - Wrote backend for new web experience for MDC partners. Ingest data from several sources to show MDC executives on a map and recent activit. CakePHP 1.2, REST API for Flash frontend",
+                "NGMOCO: Rolando Character Creator, Promotion Management tool",
+                "Other projects: Magento Ecommerce site, Joomla CMS implementations, Drupal implenentations."
+            ],
+            "highlights.bak": [
+                "MDC Partners - Worked with other developers at CPB to deliver a highly visual and interactive Flash project. I was in charge of the API backend. Ended up getting hired by CPB and relocating to Boulder, CO.",
+                "NGMOCO: Rolando Character Creator - Created a Mobile web application to built your own custom character from the game Rolando. Technologies: PHP, Mysql, HTML/CSS, JavaScript, jQuery",
+                "NGMOCO: In App Promotion Manager - Built promotions management system, that handled publishing of NGMOCO game and advertisements across all games in the NGMOCO system. Technologies: Ruby on Rails, SQLite",
+                "Stick to the Word: Magento Ecommerce Site - Put together an ecommerce site using Magento. Built custom theme and plugins to show featured products. Integration with Intui Quickbooks. Technologies: Magento, MySQL, HTML/CSS, JavaScript/jQuery, Linux"
+
+            ],
+            "company": "Self Employeed"
+        },
+        {
+            "name": "{algo+rhythm}",
+            "position": "Interactive Project Manager + Web Application Developer",
+            "summary": "Worked with inhouse and remote development/design team to deliver client projects.",
+            "location": "Fort Worth, TX",
+            "startDate": "2008-05-31",
+            "endDate": "2009-07-31",
+            "highlights.bak": [
+                "Tech Lead\n- Worked with in house and remote teams to develop projects. Required managing source code with SVN and GIT VCS systems. Experience in managing and administering these systems.\n\nBackend Development\n- Worked with project teams to execute client projects using different dynamic languages and frameworks. Extensive work with PHP & MySQL.\n\nFrontend web development\n- Strict adherence to current web standards. Extensive knowledge of CSS best practices in combination with semantic HTML/XHTML techniques. Extensive use of JQuery and Javascript.\n\nProject Management\n- Served as day to day point of contact for clients, managing expectation, project scope and timeline.\n\nBusiness Analysis\n- Worked with clients to gather and analyze business requirements for web projects as well as on small web applications."
+            ],
+            "url": "https://www.linkedin.com/company/-algo-rhythm-/",
+            "company": "Algo+Rhythm/Rassai",
+            "website": "https://rassai.com"
+        }
+    ],
+    "volunteer": [],
+    "education": [
+        {
+            "institution": "Texas Christian University",
+            "area": "Computer Information Technology",
+            "url": "https://cse.tcu.edu/computer-science/index.php",
+            "studyType": "BS",
+            "startDate": "2004-08-01",
+            "endDate": "2008-05-01",
+            "courses_disable": [
+                "CITE 30333 - Database Administration",
+                "CITE 30363 - Web Technologies",
+                "CITE 10003 - Applying Technology to Disasters, Failures, and Other Dangerous Things",
+                "CITE 10433 - Freshman Seminar in Computer Information Science",
+                "CITE 30103 - System and Network Administration",
+                "CITE 40993 - Senior Development Project",
+                "COSC 20203 - Techniques in Programming",
+                "COSC 20803 - Data Structures",
+                "COSC 30403 - Programming Language Concepts",
+                "COSC 40943 - Software Engineering"
+            ]
+        }
+    ],
+    "awards": [],
+    "publications": [],
+    "skills": [
+        {
+            "name": "Programming",
+            "keywords": [
+                "Go",
+                "JavaScript",
+                "Ruby",
+                "Python",
+                "HTML",
+                "CSS",
+                "PHP",
+                "Perl"
+            ]
+        },
+        {
+            "name": "Frameworks",
+            "keywords": [
+                "Vue.js",
+                "Angular",
+                "Echo (GoLang)",
+                "TailwindCSS",
+                "Bootstrap",
+                "Ruby on Rails",
+                "Sinatra",
+                "GTK3",
+                "CakePHP",
+                "Magento"
+            ]
+        },
+        {
+            "name": "Clouds",
+            "keywords": [
+                "Google Cloud Platform (GCP)",
+                "Amazon Web Services (AWS)"
+            ]
+        },
+        {
+            "name": "Agile",
+            "keywords": [
+                "Scrum",
+                "Kanban"
+            ]
+        },
+        {
+            "name": "CI/CD",
+            "keywords": [
+                "Gitlab",
+                "Github",
+                "Git",
+                "CircleCI",
+                "ArgoCD"
+            ]
+        },
+        {
+            "name": "Observability",
+            "keywords": [
+                "Datadog",
+                "New Relic",
+                "Google Stackdriver",
+                "Grafana"
+            ]
+        },
+        {
+            "name": "API Development",
+            "keywords": [
+                "GRPC", "REST", "OAS", "API Gateway", "Swagger"
+            ]
+        },
+        {
+            "name": "Containers",
+            "keywords": [
+              "Kubernetes", "GKE", "Docker", "Docker Compose"
+            ]
+        },
+        {
+            "name": "Data Lake/Data Mesh",
+            "keywords": [
+                "BigQuery",
+                "S3",
+                "GCS"
+            ]
+        },
+        {
+            "name": "Databases",
+            "keywords": [
+                "Postgres",
+                "SqlServer",
+                "MySQL"
+            ]
+        },
+        {
+            "name": "Leadership",
+            "keywords": [
+                "Manager",
+                "Tech Lead",
+                "Teacher",
+                "Mentor"
+            ]
+        },
+        {
+            "name": "Automated Testing",
+            "keywords": [
+                "Selenium",
+                "Artillery",
+                "ab"
+            ]
+        },
+        {
+            "name": "Applications",
+            "keywords": [
+                "JIRA",
+                "Confluence",
+                "Slack",
+                "Github",
+                "Gitlab",
+                "Bitbucket",
+                "1Password",
+                "Office365"
+            ]
+        },
+        {
+            "name": "Strengths Finder",
+            "keywords": [
+                "Relator",
+                "Restorative",
+                "Responsibility",
+                "Adaptability",
+                "Focus"
+            ]
+        }
+    ],
+    "languages": [
+        {
+            "language": "",
+            "fluency": ""
+        }
+    ],
+    "interests": [
+        {
+            "name": "Cycling",
+            "keywords": [
+                "Either on the road or on the Peloton."
+            ]
+        },
+        {
+            "name": "Coffee",
+            "keywords": [
+                "Espresso, Pour Over, Aeropress it's all good!"
+            ]
+        },
+        {
+            "name": "Homelab",
+            "keywords": [
+                "Love me some blinkin lights. Let's me play with different tech at home."
+            ]
+        },
+        {
+            "name": "Science Fiction",
+            "keywords": [
+                "Love some great scifi! Favorite Book: Hyperion"
+            ]
+        },
+        {
+            "name": "Lacrosse",
+            "keywords": [
+                "My High School and Collegiate sport! Still love watching games."
+            ]
+        },
+        {
+            "name": "TV Shows",
+            "keywords": [
+                "Seinfeld", "Arrested Development"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "name": "Scott Symmank",
+            "reference": "At SportsLabs, Brian provided a crucial senior leadership role.\r\nHe was able to bring out the best in his teammates by example and instruction,\r\nby balancing pragmatic and agile programming, and by sponsoring tech talks \r\nin and outside of the company."
+        },
+        {
+            "name": "Justin Kent",
+            "reference": "If I was fighting in combat, this is the guy I'd want by my side."
+        },
+        {
+            "name": "Aaron Benson",
+            "reference": "I've worked with Brian for over a year. He is very dependable, skilled and has a unquenchable thirst for learning new technologies. He will always get the job done. He has strong skills in both web project management and in web production."
+        },
+        {
+            "name": "Billy Clark",
+            "reference": "Brian is such an enthusiastic person to work with.  He enjoys sharing his knowledge with others and does so with such passion and drive.  I really hope to work with Brian again in the future.  His fuel can feed so many people on a team and his constant smile is very positive to those around him.  Brian, I wish you the best and really hope you'll keep in touch and I'm honored to have you as part of my LinkedIn Network."
+        },
+        {
+            "name": "Ryan Gibbons",
+            "reference": "Detailed and Creative.  Friendly and easy to work with.  Very knowledgeable with a good eye on current trends.  Can't wait to work with him again."
+        }
+    ],
+    "projects": [
+        {
+            "name": "Applied Analytics",
+            "startDate": "2019-01-31",
+            "summary": "Turn your raw business data into powerful insights into the performance of your business. Leverage the first insurance data analytics solution built specifically for your business to access multiple levels of analysis on key performance indicators for your agency’s book of business, employee operations and insurer relationships. Through an easy-to-understand visual interface, Applied Analytics™ allows you to obtain powerful graphical business insights from your existing management system data to drive greater employee productivity and increase profitable relationships with clients and insurers.",
+            "url": "https://www1.appliedsystems.com/en-us/solutions/for-agents/data-analytics/applied-analytics/"
+        },
+        {
+            "name": "EvoSure",
+            "startDate": "2014-11-30",
+            "summary": "Calling itself the Match.com of the insurance industry, the EvoSure platform lets subscribing insurance brokers get online, type in what they’re looking for and instantly access a list of underwriters who are interested in covering that kind of business. From there, the brokers just have to connect with the list of underwriters to drill down which one is the best match for the company. -- SUSAN LAHEY\n",
+            "url": "http://www.evosure.com"
+        },
+        {
+            "name": "Campus Insiders",
+            "startDate": "2013-01-31",
+            "summary": "Campus Insiders is your source for college sports news and information. Get access to exclusive video content, national and local coverage, and in-depth analysis for your favorite college football and basketball teams.",
+            "url": "http://campusinsiders.com",
+            "endDate": "2014-08-31"
+        },
+        {
+            "name": "Applebees.com",
+            "startDate": "2012-09-30",
+            "summary": null,
+            "url": "http://www.applebees.com",
+            "endDate": "2012-11-30"
+        },
+        {
+            "name": "American Express - Travel Insiders",
+            "startDate": "2012-05-31",
+            "summary": "The American Express Travel Insider Service offers customized vacations created by specialists with insider knowledge about various destinations and interests.",
+            "url": "https://travelinsiders.americanexpress.com",
+            "endDate": "2012-09-30"
+        },
+        {
+            "name": "OPENForum by American Express",
+            "startDate": "2011-02-28",
+            "summary": "OPEN Forum is an online community for business owners, connecting them with insights, advice, and tools to help them manage and grow their companies. This site provides highlights from OPEN Forum, along with our editors’ picks from around the web. It’s part of American Express OPEN’s continuing promise to provide business owners with the tools that can help them do more business. For more information and terms and conditions, visit “About OPEN Forum.”",
+            "url": "http://www.openforum.com",
+            "endDate": "2012-02-28"
+        },
+        {
+            "name": "Vail - EpicMix",
+            "startDate": "2010-08-31",
+            "summary": "EpicMix is a revolutionary technological advancement for the ski industry. With EpicMix, all your activity on the slopes is automatically captured and uploaded to your EpicMix dashboard. With a quick scan of your RF enabled pass our on-mountain photographers can take your picture and deliver it to your EpicMix account for free so you can share on Facebook and Twitter. You can buy the digital image online and a hi-res copy is yours forever. You can follow your days skied, track your vertical feet, see where you rode, earn EpicMix pins for your achievements, and collect points. All this is possible because of Radio Frequency scanners at the base of every lift, and RF technology built into every Vail Resorts season pass, and PEAKS card.",
+            "url": "http://www.epicmix.com",
+            "endDate": "2011-01-31"
+        },
+        {
+            "name": "MDC Partners",
+            "startDate": "2010-02-28",
+            "summary": "Allows users to track and connect with MDC executives, learn about the MDC Network of agencies and leaders as well as browse all relevant financial information.",
+            "url": "http://www.mdc-partners.com",
+            "endDate": "2010-08-31"
+        },
+        {
+            "name": "Stick to the Word - Magento Ecommerce",
+            "startDate": "2009-10-31",
+            "summary": "A beautiful collection of scripture & inspirational sayings written on easily removable static cling material.Place on glass, mirror & metal where you can conveniently learn & remember God's Word.",
+            "url": "http://sticktotheword.com/",
+            "endDate": "2009-12-31"
+        },
+        {
+            "name": "Rolando 2 - Character Creator",
+            "startDate": "2009-03-31",
+            "summary": "Mobile site that enables users create their own Rolando characters and device wallpapers.",
+            "url": "http://rolando2.ngmoco.com/rolando-creator/",
+            "endDate": "2009-05-31"
+        },
+        {
+            "name": "Cocktail Genius",
+            "description": "Progressive Web Application to recommend cocktails. Over 250 cocktail recipes. Rating system will recommend drinks that you may like.",
+            "highlights": [],
+            "keywords": [],
+            "startDate": "2022-01-08",
+            "website": "https://bwiggs.com/projects/cocktail-app/",
+            "roles": [],
+            "entity": "",
+            "type": ""
+        }
+    ],
+    "meta": {
+        "version": "v1.0.0",
+        "canonical": "https://github.com/jsonresume/resume-schema/blob/v1.0.0/schema.json"
+    },
+    "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+    "certificates": []
+  }
+  

@@ -1,0 +1,9 @@
+.mb-5
+    .mb-5.border-b.border-black.text-2xl Skills
+    .divide-y.divide-gray.text-xs
+        each skill in resume.skills
+            .group.py-2
+                .inline-block(class="w-1/4")
+                    .font-bold.uppercase=skill.name
+                .inline-block
+                    !=helper.beautifyArray(' · ', skill.keywords)

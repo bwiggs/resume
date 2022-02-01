@@ -1,0 +1,16 @@
+{
+  "Comment": "Add DNSLINK TXT record for resume",
+  "Changes": [
+    {
+      "Action": "CREATE",
+      "ResourceRecordSet": {
+        "Name": "_dnslink.resume.bwiggs.com",
+        "Type": "TXT",
+        "TTL": 300,
+        "ResourceRecords": [ 
+            { "Value": "\"dnslink=/ipfs/Qmc5mScWWLtmTUW8nBVaPK7tH7w43WD9BrMBsWr5fK2uN4\"" } 
+        ]
+      }
+    }
+  ]
+}

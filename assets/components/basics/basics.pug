@@ -1,0 +1,21 @@
+.mb-5
+    .text-4xl.weight-bold=resume.basics.name
+    .text-2xl.weight-bold.mb-2=resume.basics.label
+
+    .flex
+        .mr-5=helper.calcLocation(resume.basics.location)
+        a.mx-5(href="mailto"+resume.basics.email)=resume.basics.email
+        .mx-5=resume.basics.phone
+        a.text-blue-500.mx-5(href=resume.basics.url, target="_blank")=resume.basics.url
+
+    if resume.basics.summary
+        .my-5!=helper.mdToHtml(resume.basics.summary)
+
+    .flex
+        each profile in resume.basics.profiles 
+            .mr-5
+                strong=profile.network
+                |:
+                |
+                a.text-blue-500(href=profile.url, target="_blank")
+                    = profile.username  

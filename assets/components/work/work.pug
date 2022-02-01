@@ -1,0 +1,13 @@
+.mb-5
+    .border-b.border-black.text-2xl Experience
+    .divide-y.divide-gray
+        each work in resume.work
+            .py-5(class="last:pb-0")
+                h2.font-bold.text-xl= work.position
+                h3.font-bold.mb-3!=helper.workLocationDates(work, '·')
+                .summary.markdown.mb-3!=helper.mdToHtml(work.summary)
+                if work.highlights && work.highlights.length
+                    ul.list-disc
+                        each highlight in work.highlights
+                            li.mb-1.ml-5=highlight
+            
