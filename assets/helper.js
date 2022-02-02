@@ -61,6 +61,12 @@ const calcDateRange = (start, end) => {
 const beautifyDate = (date) => moment(date, 'YYYY-MM-DD').format('MMM YYYY')
 const formatDate = (date, format) => moment(date, 'YYYY-MM-DD').format(format)
 
+const friendlyDuration = (start, end) => {
+  const mStart = moment(start)
+  const mEnd = moment(end)
+  return moment.duration(mEnd.diff(mStart)).humanize()
+}
+
 const beautifyArray = (separator, array) => array.filter(x => x).join(separator)
 
 const arrayToPhrase = (array) => {
@@ -98,5 +104,6 @@ module.exports = {
   arrayToPhrase,
   beautifyLink,
   workLocationDates,
+  friendlyDuration,
   validArray
 }

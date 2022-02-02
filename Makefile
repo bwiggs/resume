@@ -3,10 +3,14 @@ AWS_CMD=docker run --rm -it -v ~/.aws:/root/.aws -v `pwd`:/aws amazon/aws-cli
 dev:
 	npm run gulp
 
+css:
+	npm run tailwind:watch
+
 deploy: build
 	npm run deploy
 
 build: 
+	npm run tailwind
 	npm run create-html
 
 dns-update:

@@ -3,9 +3,14 @@
     .divide-y.divide-gray
         each work in resume.work
             .py-5(class="last:pb-0")
-                h2.font-bold.text-xl= work.position
-                h3.font-bold.mb-3!=helper.workLocationDates(work, '·')
-                .summary.markdown.mb-3!=helper.mdToHtml(work.summary)
+                h2.font-bold.text-xl.mb-1(class="sm:mb-0")= work.position
+                ul.flex.flex-col.mb-3(class="sm:flex-row")
+                    li.font-medium.grow(class="sm:basis-0 sm:text-left")=work.company 
+                    if work.location
+                        li.grow(class="sm:basis-0 sm:text-center")=work.location 
+                    li.grow(class="sm:basis-0 sm:text-right")=helper.calcDateRange(work.startDate, work.endDate)
+                if work.summary
+                    .summary.markdown.mb-3!=helper.mdToHtml(work.summary)
                 if work.highlights && work.highlights.length
                     ul.list-disc
                         each highlight in work.highlights

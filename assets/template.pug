@@ -2,9 +2,11 @@ doctype html
 html(lang="en")
     head
         meta(charset="utf-8")
+        meta(name="viewport" content="width=device-width")
         style
             include styles.css
-            include tailwind.min.css
+            include tailwind.css
+            //- include tailwind.min.css
         title=resume.basics.name + " - " + resume.basics.label
     body.m-3
         .container.mx-auto
