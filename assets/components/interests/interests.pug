@@ -1,8 +1,2 @@
-.mb-5
-    .mb-5.border-b.border-black.text-2xl Interests
-    table.table-fixed.text-xs.border-collapse.w-full
-        each interest in resume.interests
-            tr.group.border-b(class="last:border-b-0")
-                td.pt-1.block.font-bold.uppercase(class="sm:w-1/4 sm:table-cell sm:py-2")=interest.name
-                td.pb-2.block(class="sm:table-cell")
-                    .leading-relaxed!=helper.beautifyArray(', ', interest.keywords)
++section("Interests")
+    +table(resume.interests)
