@@ -78,7 +78,7 @@
             "endDate": "2021-09-18",
             "highlights": [
               "Enterprise Data Lake - Lead a new team towards building a customer-facing Data Lake leveraging GCP, GKE and BigQuery",
-              "Data Warehouse Migration - Managed the team working on converting a legacy SQLServer data warehouse system to Google BigQuery. **Speedup from minutes to seconds.**",
+              "Data Warehouse Migration - Managed the team working on converting a legacy SQLServer data warehouse to Google BigQuery. Increased speed from minutes to seconds.",
               "Applied Analytics - Managed the product engineering team working on new features and integrations."
             ],
             "url": "https://www.linkedin.com/company/applied-systems/",
@@ -238,8 +238,7 @@
                 "Python",
                 "HTML",
                 "CSS",
-                "PHP",
-                "Perl"
+                "PHP"
             ]
         },
         {

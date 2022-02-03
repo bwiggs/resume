@@ -2,6 +2,6 @@ mixin table(items)
     table.table-fixed.text-xs.border-collapse.w-full
         each item in items
             tr.group.border-b(class="last:border-b-0")
-                td.pt-2.block.font-bold.uppercase(class="sm:w-1/4 sm:table-cell sm:py-2")=item.name
-                td.pb-2.block(class="sm:table-cell sm:p-0")
+                td.pt-2.block.font-bold.uppercase(class="sm:w-1/4 sm:table-cell print:w-1/4 print:table-cell sm:py-2 print:py-1")=item.name
+                td.pb-2.block(class="sm:table-cell print:table-cell sm:p-0")
                     div!=helper.beautifyArray(', ', item.keywords)

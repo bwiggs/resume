@@ -1,13 +1,13 @@
-+section("Interests")
++section("Experience")
     .divide-y.divide-gray
         each work in resume.work
-            .py-5(class="last:pb-0")
-                h2.font-bold.text-xl.mb-1(class="sm:mb-0")= work.position
-                ul.flex.flex-col.mb-3(class="sm:flex-row")
-                    li.font-medium.grow(class="sm:basis-0 sm:text-left")=work.company 
+            .py-5(class="last:pb-0 first:pt-0 print:py-1")
+                h2.font-bold.text-xl.mb-1(class="sm:mb-0 print:text-base")= work.position
+                ul.flex.flex-col.mb-3(class="sm:flex-row print:flex-row")
+                    li.font-medium.grow(class="sm:basis-0 print:basis-0 print:text-left sm:text-left")=work.company 
                     if work.location
-                        li.grow(class="sm:basis-0 sm:text-center")=work.location 
-                    li.grow(class="sm:basis-0 sm:text-right")=helper.calcDateRange(work.startDate, work.endDate)
+                        li.grow(class="sm:basis-0 print:basis-0 print:text-center sm:text-center")=work.location 
+                    li.grow(class="sm:basis-0 print:basis-0 print:text-right sm:text-right")=helper.calcDateRange(work.startDate, work.endDate)
                 if work.summary
                     .summary.markdown.mb-3!=helper.mdToHtml(work.summary)
                 if work.highlights && work.highlights.length

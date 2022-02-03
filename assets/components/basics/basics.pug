@@ -1,23 +1,29 @@
-.mb-5
-    .text-4xl.weight-bold=resume.basics.name
-    .text-2xl.weight-bold.mb-2=resume.basics.label
-
-    ul
-        li=helper.calcLocation(resume.basics.location)
-        //li=resume.basics.phone
-        li
-            a.text-blue-500(href="mailto:"+resume.basics.email)=resume.basics.email
-        li
-            a.text-blue-500(href=resume.basics.url, target="_blank")=resume.basics.url
++section("")
+    .flex.flex-col(class="sm:flex-row print:flex-row")
+        .basis-0.grow
+            .text-4xl.weight-bold=resume.basics.name
+            .text-2xl.weight-bold.mb-2=resume.basics.label
+        .grow.basis-0(class="sm:text-right print:text-right")
+            ul
+                li=helper.calcLocation(resume.basics.location)
+                //li=resume.basics.phone
+                li
+                    a.text-blue-500(href="mailto:"+resume.basics.email)=resume.basics.email
+                li
+                    a.text-blue-500(href=resume.basics.url, target="_blank") bwiggs.com
+                li
+                    a.text-blue-500(href="https://github.com/bwiggs", target="_blank") github.com/bwiggs
+                li
+                    a.text-blue-500(href="https://linkedin.com/in/wiggintonbrian", target="_blank") linkedin.com/in/wiggintonbrian
 
     if resume.basics.summary
-        .my-5!=helper.mdToHtml(resume.basics.summary)
+        .my-5(class="print:hidden")!=helper.mdToHtml(resume.basics.summary)
 
-    .flex.flex-col(class="sm:flex-row")
-        each profile in resume.basics.profiles 
-            div(class="sm:mr-5")
-                strong=profile.network
-                |:
-                |
-                a.text-blue-500(href=profile.url, target="_blank")
-                    = profile.username  
+    //- .flex.flex-col(class="sm:flex-row sm:gap-5 print:hidden")
+    //-     each profile in resume.basics.profiles 
+    //-         div(class="sm:gap-5")
+    //-             strong=profile.network
+    //-             |:
+    //-             |
+    //-             a.text-blue-500(href=profile.url, target="_blank")
+    //-                 = profile.username  

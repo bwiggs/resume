@@ -1,5 +1,5 @@
 +section("Education")
     each edu in resume.education
-        a.block.text-2xl(href=edu.url)=edu.institution
-        .text-xl!=helper.mdToHtml(helper.beautifyArray(', ', [edu.studyType, edu.area]))
-        .text-base=helper.calcDateRange(edu.startDate, edu.endDate)
+        a.block(href=edu.url)=edu.institution
+        div!=helper.mdToHtml(helper.beautifyArray(', ', [edu.studyType, edu.area]))
+        div=helper.calcDateRange(edu.startDate, edu.endDate)
