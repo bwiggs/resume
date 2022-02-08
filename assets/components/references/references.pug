@@ -1,9 +1,9 @@
 +section("References")
-    .flex.flex-wrap.gap-5.text-lg(class="print:text-xs print:gap-1")
+    .flex.flex-wrap.gap-5.text-lg(class="print:text-xs print:gap-y-1")
         each ref in resume.references
             blockquote(class="w-full")
                 .italic
                     | &ldquo;
                     =ref.reference
                     | &rdquo;
-                .text-right.pt-2 &mdash; #{ref.name}
+                    | &mdash; #{ref.name}

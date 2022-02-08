@@ -29,6 +29,11 @@
                 "network": "Keybase",
                 "username": "bwigginton",
                 "url": "https://keybase.io/bwigginton"
+            },
+            {
+                "network": "ACM",
+                "username": "1936983",
+                "url": "https://acm.org"
             }
         ],
         "picture": "http://resume.bwiggs.com/photo.jpg",
@@ -255,17 +260,30 @@
             ]
         },
         {
+            "name": "API Development",
+            "keywords": [
+                "GRPC", "REST", "OAS", "API Gateway", "Swagger"
+            ]
+        },
+        {
+            "name": "Orchestration",
+            "keywords": [
+              "Kubernetes", "Istio", "GKE", "Docker", "Docker Compose"
+            ]
+        },
+        {
+            "name": "Databases",
+            "keywords": [
+                "Postgres",
+                "SqlServer",
+                "MySQL"
+            ]
+        },
+        {
             "name": "Clouds",
             "keywords": [
                 "Google Cloud Platform (GCP)",
                 "Amazon Web Services (AWS)"
-            ]
-        },
-        {
-            "name": "Agile",
-            "keywords": [
-                "Scrum",
-                "Kanban"
             ]
         },
         {
@@ -288,18 +306,6 @@
             ]
         },
         {
-            "name": "API Development",
-            "keywords": [
-                "GRPC", "REST", "OAS", "API Gateway", "Swagger"
-            ]
-        },
-        {
-            "name": "Containers",
-            "keywords": [
-              "Kubernetes", "GKE", "Docker", "Docker Compose"
-            ]
-        },
-        {
             "name": "Data Lake/Data Mesh",
             "keywords": [
                 "BigQuery",
@@ -308,28 +314,18 @@
             ]
         },
         {
-            "name": "Databases",
-            "keywords": [
-                "Postgres",
-                "SqlServer",
-                "MySQL"
-            ]
-        },
-        {
-            "name": "Leadership",
-            "keywords": [
-                "Manager",
-                "Tech Lead",
-                "Teacher",
-                "Mentor"
-            ]
-        },
-        {
             "name": "Automated Testing",
             "keywords": [
                 "Selenium",
                 "Artillery",
                 "ab"
+            ]
+        },
+        {
+            "name": "Agile",
+            "keywords": [
+                "Scrum",
+                "Kanban"
             ]
         },
         {
@@ -372,19 +368,19 @@
         {
             "name": "Coffee",
             "keywords": [
-                "Espresso, Pour Over, Aeropress it's all good!"
+                "Espresso, Pour-Over, Aeropress, Drip - it's all good!"
             ]
         },
         {
             "name": "Homelab",
             "keywords": [
-                "Love me some blinkin lights. Let's me play with different tech at home."
+                "So I can play with different tech at home. Also, blinkin-lights!"
             ]
         },
         {
-            "name": "Science Fiction",
+            "name": "Reading",
             "keywords": [
-                "Love some great scifi! Favorite Book: Hyperion"
+                "Science Fiction, CACM, Non-fiction, sometimes other stuff. Favorite Book: Hyperion"
             ]
         },
         {
@@ -402,105 +398,38 @@
     ],
     "references": [
         {
-            "name": "Scott Symmank",
-            "reference": "At SportsLabs, Brian provided a crucial senior leadership role.\r\nHe was able to bring out the best in his teammates by example and instruction,\r\nby balancing pragmatic and agile programming, and by sponsoring tech talks \r\nin and outside of the company."
-        },
-        {
-            "name": "Justin Kent",
-            "reference": "If I was fighting in combat, this is the guy I'd want by my side."
-        },
-        {
-            "name": "Aaron Benson",
-            "reference": "I've worked with Brian for over a year. He is very dependable, skilled and has a unquenchable thirst for learning new technologies. He will always get the job done. He has strong skills in both web project management and in web production."
-        },
-        {
             "name": "Billy Clark",
-            "reference": "Brian is such an enthusiastic person to work with.  He enjoys sharing his knowledge with others and does so with such passion and drive.  I really hope to work with Brian again in the future.  His fuel can feed so many people on a team and his constant smile is very positive to those around him.  Brian, I wish you the best and really hope you'll keep in touch and I'm honored to have you as part of my LinkedIn Network."
+            "reference": "Brian is such an enthusiastic person to work with.  He enjoys sharing his knowledge with others and does so with such passion and drive.  I really hope to work with Brian again in the future.  His fuel can feed so many people on a team and his constant smile is very positive to those around him.  Brian, I wish you the best and really hope you'll keep in touch."
+        },
+        {
+            "name": "Scott Symmank",
+            "reference": "At SportsLabs, Brian provided a crucial senior leadership role. He was able to bring out the best in his teammates by example and instruction, by balancing pragmatic and agile programming, and by sponsoring tech talks in and outside of the company."
         },
         {
             "name": "Ryan Gibbons",
             "reference": "Detailed and Creative.  Friendly and easy to work with.  Very knowledgeable with a good eye on current trends.  Can't wait to work with him again."
+        },
+        {
+            "name": "Aaron Benson",
+            "reference": "I've worked with Brian for over a year. He is very dependable, skilled and has a unquenchable thirst for learning new technologies. He will always get the job done. He has strong skills in both web project management and in web production."
         }
+        
     ],
     "projects": [
         {
-            "name": "Applied Analytics",
-            "startDate": "2019-01-31",
-            "summary": "Turn your raw business data into powerful insights into the performance of your business. Leverage the first insurance data analytics solution built specifically for your business to access multiple levels of analysis on key performance indicators for your agency’s book of business, employee operations and insurer relationships. Through an easy-to-understand visual interface, Applied Analytics™ allows you to obtain powerful graphical business insights from your existing management system data to drive greater employee productivity and increase profitable relationships with clients and insurers.",
-            "url": "https://www1.appliedsystems.com/en-us/solutions/for-agents/data-analytics/applied-analytics/"
-        },
-        {
-            "name": "EvoSure",
-            "startDate": "2014-11-30",
-            "summary": "Calling itself the Match.com of the insurance industry, the EvoSure platform lets subscribing insurance brokers get online, type in what they’re looking for and instantly access a list of underwriters who are interested in covering that kind of business. From there, the brokers just have to connect with the list of underwriters to drill down which one is the best match for the company. -- SUSAN LAHEY\n",
-            "url": "http://www.evosure.com"
-        },
-        {
-            "name": "Campus Insiders",
-            "startDate": "2013-01-31",
-            "summary": "Campus Insiders is your source for college sports news and information. Get access to exclusive video content, national and local coverage, and in-depth analysis for your favorite college football and basketball teams.",
-            "url": "http://campusinsiders.com",
-            "endDate": "2014-08-31"
-        },
-        {
-            "name": "Applebees.com",
-            "startDate": "2012-09-30",
-            "summary": null,
-            "url": "http://www.applebees.com",
-            "endDate": "2012-11-30"
-        },
-        {
-            "name": "American Express - Travel Insiders",
-            "startDate": "2012-05-31",
-            "summary": "The American Express Travel Insider Service offers customized vacations created by specialists with insider knowledge about various destinations and interests.",
-            "url": "https://travelinsiders.americanexpress.com",
-            "endDate": "2012-09-30"
-        },
-        {
-            "name": "OPENForum by American Express",
-            "startDate": "2011-02-28",
-            "summary": "OPEN Forum is an online community for business owners, connecting them with insights, advice, and tools to help them manage and grow their companies. This site provides highlights from OPEN Forum, along with our editors’ picks from around the web. It’s part of American Express OPEN’s continuing promise to provide business owners with the tools that can help them do more business. For more information and terms and conditions, visit “About OPEN Forum.”",
-            "url": "http://www.openforum.com",
-            "endDate": "2012-02-28"
-        },
-        {
-            "name": "Vail - EpicMix",
-            "startDate": "2010-08-31",
-            "summary": "EpicMix is a revolutionary technological advancement for the ski industry. With EpicMix, all your activity on the slopes is automatically captured and uploaded to your EpicMix dashboard. With a quick scan of your RF enabled pass our on-mountain photographers can take your picture and deliver it to your EpicMix account for free so you can share on Facebook and Twitter. You can buy the digital image online and a hi-res copy is yours forever. You can follow your days skied, track your vertical feet, see where you rode, earn EpicMix pins for your achievements, and collect points. All this is possible because of Radio Frequency scanners at the base of every lift, and RF technology built into every Vail Resorts season pass, and PEAKS card.",
-            "url": "http://www.epicmix.com",
-            "endDate": "2011-01-31"
-        },
-        {
-            "name": "MDC Partners",
-            "startDate": "2010-02-28",
-            "summary": "Allows users to track and connect with MDC executives, learn about the MDC Network of agencies and leaders as well as browse all relevant financial information.",
-            "url": "http://www.mdc-partners.com",
-            "endDate": "2010-08-31"
-        },
-        {
-            "name": "Stick to the Word - Magento Ecommerce",
-            "startDate": "2009-10-31",
-            "summary": "A beautiful collection of scripture & inspirational sayings written on easily removable static cling material.Place on glass, mirror & metal where you can conveniently learn & remember God's Word.",
-            "url": "http://sticktotheword.com/",
-            "endDate": "2009-12-31"
-        },
-        {
-            "name": "Rolando 2 - Character Creator",
-            "startDate": "2009-03-31",
-            "summary": "Mobile site that enables users create their own Rolando characters and device wallpapers.",
-            "url": "http://rolando2.ngmoco.com/rolando-creator/",
-            "endDate": "2009-05-31"
-        },
-        {
             "name": "Cocktail Genius",
-            "description": "Progressive Web Application to recommend cocktails. Over 250 cocktail recipes. Rating system will recommend drinks that you may like.",
-            "highlights": [],
-            "keywords": [],
-            "startDate": "2022-01-08",
-            "website": "https://bwiggs.com/projects/cocktail-app/",
-            "roles": [],
-            "entity": "",
-            "type": ""
+            "description": "Progressive Web Application to log and recommend cocktails. Over 250 cocktail recipes. Smart binary recommendation system based on Laplace Smoothing.",
+            "website": "https://bwiggs.com/projects/cocktail-app/"
+        },
+        {
+            "name": "Linux Stock/Crypto Screener",
+            "description": "Stock/Crypto screener and visualizer built for the Linux desktop using GTK3, GJS and Gnome Builder",
+            "website": "https://bwiggs.com/projects/gtk-stocks/"
+        },
+        {
+            "name": "go-nexrad",
+            "description": "go library to parse and generate radar images from NEXRAD weather antennas.",
+            "website": "https://bwiggs.com/projects/go-nexrad/"
         }
     ],
     "meta": {
