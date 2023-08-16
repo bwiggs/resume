@@ -8,14 +8,11 @@ css:
 
 pdf:
 	npm run create-pdf
-	xdg-open public/brian-wigginton.pdf
+	open public/brian-wigginton.pdf
 
-deploy: 
-	npm run deploy
+full: build
 
-full: build deploy
-
-build: 
+build:
 	npm run tailwind
 	npm run create-html
 	npm run create-pdf
@@ -23,4 +20,4 @@ build:
 dns-update:
 	${AWS_CMD} route53 change-resource-record-sets --profile personal --hosted-zone-id /hostedzone/ZXJ9JNTX1YMX1 --change-batch file://aws-route53-recordset.json
 
-.PHONY: dns-update build deploy pdf css
+.PHONY: build deploy pdf css

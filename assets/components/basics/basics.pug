@@ -17,13 +17,13 @@
                     a.text-blue-500(href="https://linkedin.com/in/wiggintonbrian", target="_blank") linkedin.com/in/wiggintonbrian
 
     if resume.basics.summary
-        .my-5(class="print:hidden")!=helper.mdToHtml(resume.basics.summary)
+        .my-5.space-y-3!=helper.mdToHtml(resume.basics.summary)
 
     //- .flex.flex-col(class="sm:flex-row sm:gap-5 print:hidden")
-    //-     each profile in resume.basics.profiles 
+    //-     each profile in resume.basics.profiles
     //-         div(class="sm:gap-5")
     //-             strong=profile.network
     //-             |:
     //-             |
     //-             a.text-blue-500(href=profile.url, target="_blank")
-    //-                 = profile.username  
+    //-                 = profile.username
